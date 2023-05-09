@@ -73,10 +73,10 @@ function onDateSelected() {
   var currentYear = currentDate.getFullYear(); 
     if (selectedMonth<currentMonth) {
       dateError.style.borderColor = "red";
-      alert("Выбранная дата должна быть сегодня или позже.");
+      alert("Вы указали неверный месяц");
     }else if(selectedDay<currentDay){
       dateError.style.borderColor = "red";
-      alert("Выбранная дата должна быть сегодня или позже.");
+      alert("Выбранная дата должна быть сегодня или позже");
     }else if(selectedYear===currentYear){
       dateError.style.borderColor = "#0bf326";
       selectNextList();
