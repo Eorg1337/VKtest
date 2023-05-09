@@ -2,12 +2,11 @@
   "name": "vktest",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
   "scripts": {
-    "start": "node static-file-server.js",
+    "start": "node assets/static-file-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Khomutskii E.I.",
   "license": "ISC",
   "dependencies": {
     "boostrap": "^2.0.0",
