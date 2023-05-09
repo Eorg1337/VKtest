@@ -29,6 +29,6 @@
 <ul dir="auto">
 <li>Перейдите в браузер и введите <code>localhost:8080</code> вместо url-адреса.</li>
 </ul>
-<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="<img width="340" alt="Screenshot_1" src="https://github.com/Eorg1337/VKtest/assets/92381314/01899172-34f7-42ba-8094-4050ffae6bcb">"><img src="<img width="340" alt="Screenshot_1" src="https://github.com/Eorg1337/VKtest/assets/92381314/95f3e2d4-d7b1-405e-b50e-6d78f02911b1">" alt="login screen" title="Login Page" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/Eorg1337/VKtest/assets/92381314/01899172-34f7-42ba-8094-4050ffae6bcb"><img src="https://github.com/Eorg1337/VKtest/assets/92381314/95f3e2d4-d7b1-405e-b50e-6d78f02911b1"  style="max-width: 100%;"></a></p>
 </article>
         </div>
