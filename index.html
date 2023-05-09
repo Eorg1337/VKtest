@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Бронирование переговорной</title>
+<link rel = "stylesheet" href = "style.css">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <form>
+      <div class="title">Бронирование переговорной</div>
+
+      <div class="form-group">
+        <label for="towerSelect">Выберите башню *:</label>
+        <select class="form-control" id="towerSelect" onchange="selectNextList()" required>
+          <option id="disabledText" disabled selected value>Укажите башню в которой находится нужная вам переговорная</option>
+          <option>А</option>
+          <option>Б</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="floorSelect">Выберите этаж *:</label>
+        <select class="form-control" id="floorSelect" onchange="selectNextList()" required>
+          <option id="disabledText" disabled selected value >Укажите этаж на котором находится нужная вам переговорная</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+          <option>13</option>
+          <option>14</option>
+          <option>15</option>
+          <option>16</option>
+          <option>17</option>
+          <option>18</option>
+          <option>19</option>
+          <option>20</option>
+          <option>21</option>
+          <option>22</option>
+          <option>23</option>
+          <option>24</option>
+          <option>25</option>
+          <option>26</option>
+          <option>27</option>
+        </select>
+      </div>
+  
+
+      <div class="form-group">
+        <label for="roomSelect">Выберите переговорную *:</label>
+        <select class="form-control" id="roomSelect" onchange="selectNextList()" required>
+          <option disabled selected value>Укажите номер переговорной</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+        </select>
+      </div>
+   
+
+      <div class="form-group">
+        <label for="date-picker">Введите или выберите дату *:
+        </label>
+        <input type="date" id="date-picker" class="form-control"  required onchange="onDateSelected()">
+      </div>
+  
+
+      <div class="divider">
+        <div class="form-group">
+          <label for="startTimeSelect">Время начала *:</label>
+          <input type="time" id="startTimeSelect" class = "form-control-mini" onchange="onTimeSelected()" required>
+        </div>
+
+      <div class="divider-right">
+        <div class="form-group">
+          <label for="endTimeSelect">Время окончания *:</label>
+          <input type = "time" id = "endTimeSelect" class = "form-control-mini" onchange="onTimeSelected()" required> 
+        </div>
+      </div>
+      </div>
+
+      <div class="form-group">
+        <label for="comment">Комментарий:</label>
+        <textarea class="form-control" id="comment" placeholder="Напишите свои пожелания"  onchange="selectNextList()"></textarea>
+      </div>
+
+      <button type="button" class="btn btn-primary" id="buttonSub" onclick="this.blur()">Отправить</button>
+      <button type="reset" class="btn btn-default" id="buttonRes" onclick="this.blur()">Очистить</button>
+    </form>
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
